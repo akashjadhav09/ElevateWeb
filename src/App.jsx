@@ -1,13 +1,13 @@
 import './App.css'
 
-function App() {
+import BookFreeCall from './shared/component/bookFreeCall';
 
+function App() {
   return (
     <>
-      <p className='text-violet-500'>Hello World!</p>
+      <BookFreeCall />
     </>
-   
   )
 }
 
-export default App;
+export default App
