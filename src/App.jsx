@@ -1,12 +1,13 @@
 import './App.css'
 
+import Footer from './shared/component/Footer';
+
 function App() {
 
   return (
     <>
-      <p className='text-violet-500'>Hello World!</p>
-    </>
-   
+      <Footer/>
+    </>   
   )
 }
 
