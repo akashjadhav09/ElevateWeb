@@ -1,1 +1,2 @@
-# ElevateWeb
+# GlamCart
+For beauty &amp; fashion lovers.
