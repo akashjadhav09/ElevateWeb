@@ -7,27 +7,24 @@ export default function Footer(){
     return(
         <div className="footer-section-wrapper__main px-20 pt-20 pb-8 w-full">
              <div className="footer-section-wrapper__outer flex items-baseline justify-evenly pb-12 border-b border-gray-400">
-
                 <div className="logo-wrapper__outer w-[20%]">
                     <div className="logo-wrapper__inner">
                         <div className="logo-label text-2xl">Elevate Web</div>
-                        <p className="logo-description">We craft high-performance digital experiences that drive real business results.</p>
                     </div>
-                    <div className="social-handler-icon-wrapper flex items-center gap-4 mt-4 cursor-pointer">
+                    <p className="logo-description mt-4">We craft high-performance digital experiences that drive real business results.</p>
+                    <div className="social-handler-icon-wrapper flex items-center gap-4 mt-12 cursor-pointer">
                         <span className="bg-black text-[#b4f553] p-1 text-xl rounded-full">
                             <FaInstagram />
                         </span>
-                         <span className="bg-black text-[#b4f553] p-1 text-xl rounded-full">
+                        <span className="bg-black text-[#b4f553] p-1 text-xl rounded-full">
                             <FaFacebook />
                         </span>
-                         <span className="bg-black text-[#b4f553] p-1 text-xl rounded-full">
-                           <FaLinkedin />
+                        <span className="bg-black text-[#b4f553] p-1 text-xl rounded-full">
+                        <FaLinkedin />
                         </span>
-                         <span className="bg-black text-[#b4f553] p-1 text-xl rounded-full">
-                           <FaXTwitter />
+                        <span className="bg-black text-[#b4f553] p-1 text-xl rounded-full">
+                        <FaXTwitter />
                         </span>
-                        
-                        
                     </div>
                 </div>
 
@@ -64,7 +61,7 @@ export default function Footer(){
                        <button className="subscribe-btn bg-black text-white p-2 text-center border border-black rounded-md">Subscribe Now</button>
                     </div>
                 </div>
-
+                
             </div>
             <div className="copyright-label-container my-6 text-center">
                 <label className="copyright-label text-gray-400">Copyright © 2025 Agency All rights reserved</label>
