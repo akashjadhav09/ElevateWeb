@@ -3,6 +3,9 @@ import HomePageNarrative from './features/home/HomePageNarrative';
 
 import Footer from './shared/component/Footer';
 import BookFreeCall from './shared/component/bookFreeCall';
+import HeroSection from './features/home/HeroSection';
+import HomeFeatureIcon from './features/home/HomeFeatureIcon';
+import HomeServiceCard from './features/home/HomeServiceCard';
 
 function App() {
     let title = "Unforgettable, Websites, Brands & Visuals for Bold Visionaries.";
@@ -10,11 +13,14 @@ function App() {
     let imgsrc = "./public/assets/images/homepageNarr1.jpg"
   return (
     <>
+      <HeroSection />
+      <HomePageNarrative titleText={title} bodyText={body} imgSrc={imgsrc}/>
+      <HomeFeatureIcon />
+      <HomeServiceCard />
       <Footer/>
       <BookFreeCall />
-     <HomePageNarrative titleText={title} bodyText={body} imgSrc={imgsrc}/>
     </>
   )
 }
 
-export default App
+export default App;
