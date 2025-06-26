@@ -6,6 +6,7 @@ import BookFreeCall from './shared/component/bookFreeCall';
 import HeroSection from './features/home/HeroSection';
 import HomeFeatureIcon from './features/home/HomeFeatureIcon';
 import HomeServiceCard from './features/home/HomeServiceCard';
+import SpotlightCard from './features/home/SpotlightCard';
 
 function App() {
     let title = "Unforgettable, Websites, Brands & Visuals for Bold Visionaries.";
@@ -17,6 +18,7 @@ function App() {
       <HomePageNarrative titleText={title} bodyText={body} imgSrc={imgsrc}/>
       <HomeFeatureIcon />
       <HomeServiceCard />
+      <SpotlightCard />
       <Footer/>
       <BookFreeCall />
     </>
