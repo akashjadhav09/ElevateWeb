@@ -7,6 +7,7 @@ import HeroSection from './features/home/HeroSection';
 import HomeFeatureIcon from './features/home/HomeFeatureIcon';
 import HomeServiceCard from './features/home/HomeServiceCard';
 import SpotlightCard from './features/home/SpotlightCard';
+import ClientRating from './features/home/ClientRatingCard';
 
 function App() {
     let title = "Unforgettable, Websites, Brands & Visuals for Bold Visionaries.";
@@ -19,6 +20,7 @@ function App() {
       <HomeFeatureIcon />
       <HomeServiceCard />
       <SpotlightCard />
+      <ClientRating />
       <Footer/>
       <BookFreeCall />
     </>

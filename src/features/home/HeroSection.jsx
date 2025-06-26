@@ -21,7 +21,7 @@ export default function HeroSection(){
                     <div className="hero-section-brand-name-strip__outer my-4 text-white text-4xl flex items-center justify-evenly flex-wrap w-full">
                         <p className="brand-name">Bento</p>
                         <p className="brand-name">Hundai</p>
-                        <p className="brand-name">Yahmha</p>
+                        <p className="brand-name">Yamaha</p>
                         <p className="brand-name">Hero</p>
                         <p className="brand-name">Bajaj</p>
                         <p className="brand-name">Kawasaki</p>

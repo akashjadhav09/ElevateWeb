@@ -78,7 +78,8 @@ export default function HomeServiceCard(){
         }
     ]
     return(
-        <div className="bg-[#f3f3f3] py-10 px-4 my-8">
+        <div className="bg-[#f3f3f3] py-10 px-4 mt-8 text-center">
+            <div className="text-5xl pt-8 pb-16">Services We Offer</div>
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {HomeServiceCardData.map((item, index) => (

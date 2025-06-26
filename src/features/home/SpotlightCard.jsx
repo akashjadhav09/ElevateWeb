@@ -38,32 +38,35 @@ export default function SpotlightCard() {
     ];
 
     return (
-        <div className="flex flex-wrap items-center justify-center gap-6 xl:gap-20 p-4 bg-[#12141d]">
-            {SpotlightCardData.map((item, index) => (
-                <div
-                key={index}
-                className={`w-full sm:w-[48%] md:w-[40%] md:h-[40%] xl:w-[35%] bg-white rounded-xl overflow-hidden transition ${index %2 !== 0 ? 'mt-20' : ''}`}
-                >
-                <img
-                    src={item.imgSrc}
-                    alt={item.Title}
-                    className="w-full h-full object-cover"
-                />
-                <div className="py-6 bg-[#12141d] text-white">
-                    <h3 className="text-lg font-semibold mb-2">{item.Title}</h3>
-                    <div className="flex flex-wrap gap-2">
-                    {item.label.map((label, labelIndex) => (
-                        <span
-                        key={labelIndex}
-                        className="px-3 py-1 text-sm rounded-full border border-white"
-                        >
-                        {label.text}
-                        </span>
-                    ))}
+        <div className="spotlight-wrapper__main bg-[#12141d]">
+            <div className="text-white text-center text-5xl pt-16 pb-8">Showcase of Selected Work</div>
+            <div className="flex flex-wrap items-center justify-center gap-6 xl:gap-20 p-4">
+                {SpotlightCardData.map((item, index) => (
+                    <div
+                    key={index}
+                    className={`w-full sm:w-[48%] md:w-[40%] md:h-[40%] xl:w-[35%] rounded-xl overflow-hidden transition ${index %2 !== 0 ? 'mt-20' : ''}`}
+                    >
+                    <img
+                        src={item.imgSrc}
+                        alt={item.Title}
+                        className="w-full h-full object-cover"
+                    />
+                    <div className="py-6 bg-[#12141d] text-white">
+                        <h3 className="text-lg font-semibold mb-2">{item.Title}</h3>
+                        <div className="flex flex-wrap gap-2">
+                        {item.label.map((label, labelIndex) => (
+                            <span
+                            key={labelIndex}
+                            className="px-3 py-1 text-sm rounded-full border border-white"
+                            >
+                            {label.text}
+                            </span>
+                        ))}
+                        </div>
                     </div>
-                </div>
-                </div>
-            ))}
+                    </div>
+                ))}
+            </div>
         </div>
     );
 }
