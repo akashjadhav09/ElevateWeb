@@ -26,7 +26,7 @@ export default function ClientRating(){
     return(
         <div className="client-rating__main">
             <div className="text-center text-5xl pt-16 pb-8">What Our Client Say About Us</div>
-            <div className="client-rating__outer flex justify-center m-4 flex-wrap gap-6">
+            <div className="client-rating__outer flex justify-center m-4 mb-20 flex-wrap gap-6">
                 {ClientRating.map((item, index) => (
                 <div
                     className="client-rating__inner bg-white border border-gray-200 rounded-xl shadow-md mt-4 w-full sm:w-[48%] md:w-[31%]"

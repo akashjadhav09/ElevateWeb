@@ -75,6 +75,21 @@ export default function HomeServiceCard(){
                     point: "Complex workflows without engineers."
                 }
             ]
+        },
+        {
+            title: "3.Webflow Development",
+            body: "Websites that load fast, rank higher, and grow with you. No bloated code—just seamless Webflow experiences.",
+            checkPoints: [
+                {
+                    point: "90+ PageSpeed scores guaranteed."
+                },
+                {
+                    point: "SEO-optimized out of the box."
+                },
+                {
+                    point: "Editable CMS for non-tech teams."
+                }
+            ]
         }
     ]
     return(

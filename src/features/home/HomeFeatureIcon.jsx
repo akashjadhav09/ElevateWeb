@@ -3,7 +3,7 @@ export default function HomeFeatureIcon(){
     const stripContent = [
         {
             iconSrc : "./public/assets/icons/e-commerce-icon.svg",
-            title : "72",
+            title : "72+",
             description : "Hour Prototype Guarantee"
         },
         {
@@ -26,8 +26,8 @@ export default function HomeFeatureIcon(){
                                 <div className="strip-icon-wrapper bg-[#f3f3f3] p-8 border-transparent rounded-full">
                                     <img className="strip-icon" src={strip.iconSrc} alt="" />
                                 </div>
-                                <div className="strip-content-wrapper flex flex-col items-center justify-center gap-4">
-                                    <div className="strip-title">{strip.title}</div>
+                                <div className="strip-content-wrapper flex flex-col justify-center gap-4">
+                                    <div className="strip-title text-4xl font-semibold">{strip.title}</div>
                                     <div className="strip-description">{strip.description}</div>
                                 </div>
                             </div>
