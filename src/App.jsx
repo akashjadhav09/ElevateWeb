@@ -9,6 +9,7 @@ import HomeServiceCard from './features/home/HomeServiceCard';
 import SpotlightCard from './features/home/SpotlightCard';
 import ClientRating from './features/home/ClientRatingCard';
 import HomeStudioSectionCard from './features/home/HomeStudioSectionCard';
+import Navbar from './navbar/Navbar';
 
 function App() {
     let title = "Unforgettable, Websites, Brands & Visuals for Bold Visionaries.";
@@ -16,6 +17,7 @@ function App() {
     let imgsrc = "./public/assets/images/homepageNarr1.jpg"
   return (
     <>
+      <Navbar />
       <HeroSection />
       <HomePageNarrative titleText={title} bodyText={body} imgSrc={imgsrc}/>
       <HomeFeatureIcon />
