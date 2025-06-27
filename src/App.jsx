@@ -3,6 +3,12 @@ import HomePageNarrative from './features/home/HomePageNarrative';
 
 import Footer from './shared/component/Footer';
 import BookFreeCall from './shared/component/bookFreeCall';
+import HeroSection from './features/home/HeroSection';
+import HomeFeatureIcon from './features/home/HomeFeatureIcon';
+import HomeServiceCard from './features/home/HomeServiceCard';
+import SpotlightCard from './features/home/SpotlightCard';
+import ClientRating from './features/home/ClientRatingCard';
+import HomeStudioSectionCard from './features/home/HomeStudioSectionCard';
 
 function App() {
     let title = "Unforgettable, Websites, Brands & Visuals for Bold Visionaries.";
@@ -10,11 +16,17 @@ function App() {
     let imgsrc = "./public/assets/images/homepageNarr1.jpg"
   return (
     <>
-      <Footer/>
+      <HeroSection />
+      <HomePageNarrative titleText={title} bodyText={body} imgSrc={imgsrc}/>
+      <HomeFeatureIcon />
+      <HomeServiceCard />
+      <SpotlightCard />
+      <ClientRating />
+      <HomeStudioSectionCard/>
       <BookFreeCall />
-     <HomePageNarrative titleText={title} bodyText={body} imgSrc={imgsrc}/>
+      <Footer/>
     </>
   )
 }
 
-export default App
+export default App;
