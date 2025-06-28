@@ -1,6 +1,5 @@
 import React from "react";
 
-import PageIntroBanner from "../../shared/component/PageIntroBanner";
 import HeroSection from "../home/HeroSection";
 import HomePageNarrative from "../home/HomePageNarrative";
 import HomeFeatureIcon from "../home/HomeFeatureIcon";
@@ -16,7 +15,6 @@ export default function HomePage(){
 
     return(
       <>
-        <PageIntroBanner/>
         <HeroSection />
         <HomePageNarrative titleText={title} bodyText={body} imgSrc={imgsrc}/>
         <HomeFeatureIcon />
