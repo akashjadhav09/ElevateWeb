@@ -4,6 +4,7 @@ import PageIntroBanner from "../../shared/component/PageIntroBanner";
 import HowWeWork from "./HowWeWorkCard";
 import Narrative from "../../shared/component/Narrative";
 import AboutUsNarrative from "./AboutUsNarrative";
+import Blinds from "../../shared/component/Blinds";
 
 export default function AboutUsPage(){
     return(
@@ -16,6 +17,7 @@ export default function AboutUsPage(){
             <HowWeWork />
             <Narrative />
             <AboutUsNarrative />
+            <Blinds />
         </>
     )
 }

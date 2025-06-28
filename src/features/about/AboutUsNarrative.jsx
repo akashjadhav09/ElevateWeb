@@ -46,7 +46,7 @@ export default function AboutUsNarrative({narrativeData}){
                             <p className="body-text text-lg my-8 w-[70%]">{item.content.body}</p>
                             </div>
 
-                            <div className="checkpoint-wrapper__outer">
+                            <div className="checkpoint-wrapper__outer pb-8">
                             <p className="checkpoint-label-text text-lg mb-2 w-[70%]">
                                 {item.content.checkpoints.checkpointText}
                             </p>
