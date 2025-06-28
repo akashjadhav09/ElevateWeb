@@ -6,16 +6,14 @@ export default function Navbar(){
     return(
       <div className="navbar-wrapper__main">
         <div className="navbar-wrapper__outer"> 
-          <div className="navbar-wrapper__inner bg-[#12141d] text-white relative pb-72 px-6">
+          <div className="navbar-wrapper__inner bg-[#12141d] text-white relative pb-56 px-6">
             <div className="navbar-top__section flex items-center justify-center flex-wrap gap-20 pt-6 pb-8">
               <div className="navbar-logo text-2xl font-semibold">ELEVATE WEB</div>
 
               <div className="navbar-links__section cursor-pointer flex items-center flex-wrap justify-center gap-8 text-lg">
                 <p className="link">About</p>
                 <p className="link flex items-center justify-center gap-2">Services
-                  
-                    <RiArrowDropDownLine className="text-2xl"/>
-              
+                  <RiArrowDropDownLine className="text-2xl"/>
                 </p>
                 <p className="link">Blog</p>
                 <p className="link">Portfolio</p>
@@ -29,7 +27,7 @@ export default function Navbar(){
               </button>
             </div>
 
-            <div className="navbar-content-section__outer flex flex-col items-center relative mt-10">
+            {/* <div className="navbar-content-section__outer flex flex-col items-center relative mt-10">
               <div className="navbar-content__section z-10 text-center max-w-2xl px-4">
                 <div className="title-text text-4xl font-bold mb-4">
                   Crafted Works, Bold Results
@@ -46,10 +44,10 @@ export default function Navbar(){
                   alt="Hero Visual"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
 
-          <div className="navbar-bottom-wapper bg-white h-[200px] relative z-10"></div>
+          {/* <div className="navbar-bottom-wapper bg-white h-[200px] relative z-10"></div> */}
         </div>
       </div>
 
