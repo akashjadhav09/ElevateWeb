@@ -3,9 +3,11 @@ import './App.css'
 import Navbar from './navbar/Navbar';
 // import HomePage from './features/home/homePage';
 // import AboutUsPage from './features/about/AboutPage';
+// import BlogPage from './features/blog/BlogPage';
+import PortfolioPage from './features/portfolio/PortfolioPage';
+
 import BookFreeCall from './shared/component/bookFreeCall';
 import Footer from './shared/component/Footer';
-import BlogPage from './features/blog/BlogPage';
 
 function App() {
   return (
@@ -13,7 +15,8 @@ function App() {
       <Navbar />
       {/* <HomePage /> */}
       {/* <AboutUsPage/> */}
-      <BlogPage />
+      {/* <BlogPage /> */}
+      <PortfolioPage />
       <BookFreeCall />
       <Footer/>
     </>
