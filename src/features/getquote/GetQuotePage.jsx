@@ -1,21 +1,17 @@
 import React from "react";
 
 import PageIntroBanner from "../../shared/component/PageIntroBanner";
-import ImageCard from "./ImageCard";
-import CarrersCard from "./CarrerCard";
-import HiringStrip from "./HiringStrip";
+import ShareProjectDetailForm from "./ShareProjectDetailForm";
 
-export default function CarrersPage(){
+export default function GetQuotePage(){
     return(
-        <div className="portfolio-page__main">
+        <div className="get-a-quote-main">
             <PageIntroBanner 
                 title = "Careers at Elevate Web"
                 body = "Build the future with pixels, code, and zero corporate nonsense."
                 src = "./public/assets/images/homepageNarr1.jpg"
             />
-            <ImageCard />
-            <CarrersCard />
-            <HiringStrip />
+           <ShareProjectDetailForm />
         </div>
     )
 }
