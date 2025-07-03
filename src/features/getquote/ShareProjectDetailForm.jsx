@@ -22,7 +22,7 @@ export default function ShareProjectDetailForm() {
             <div className="body-text text-center text-lg w-1/2">{body}</div>
         </div>
 
-        <div className="max-w-2xl mx-auto bg-white p-8 rounded-2xl border border-gray-200">
+        <div className="max-w-2xl mx-auto bg-white p-8 rounded-2xl border border-gray-200 mb-8">
             <form className="space-y-6">
                 <div>
                     <label className="block mb-1 font-medium">
