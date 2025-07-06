@@ -6,7 +6,8 @@ import Navbar from './navbar/Navbar';
 // import BlogPage from './features/blog/BlogPage';
 // import PortfolioPage from './features/portfolio/PortfolioPage';
 // import CarrersPage from './features/carrers/CarrersPage';
-import GetQuotePage from './features/getquote/GetQuotePage';
+// import GetQuotePage from './features/getquote/GetQuotePage';
+import ContactPage from './features/contact/ContactPage';
 
 import BookFreeCall from './shared/component/bookFreeCall';
 import Footer from './shared/component/Footer';
@@ -20,7 +21,8 @@ function App() {
       {/* <BlogPage /> */}
       {/* <PortfolioPage /> */}
       {/* <CarrersPage /> */}
-      <GetQuotePage />
+      {/* <GetQuotePage /> */}
+      <ContactPage />
       <BookFreeCall />
       <Footer/>
     </>
