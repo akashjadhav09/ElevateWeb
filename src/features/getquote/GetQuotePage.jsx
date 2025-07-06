@@ -8,8 +8,8 @@ export default function GetQuotePage(){
     return(
         <div className="get-a-quote-main">
             <PageIntroBanner 
-                title = "Careers at Elevate Web"
-                body = "Build the future with pixels, code, and zero corporate nonsense."
+                title = "Let’s Bring Ideas to Life"
+                body = "Get a custom quote tailored to your unique project needs."
                 src = "./public/assets/images/homepageNarr1.jpg"
             />
            <ShareProjectDetailForm />
