@@ -29,7 +29,7 @@ export default function HomeStudioSectionCard(){
     return(
         <div className="studio-section-card__main bg-[#f3f3f3] pb-24">
             <div className="text-5xl py-16 text-center">The Studio Journal</div>
-            <div className="studio-section-card__outer flex items-center justify-evenly gap-6 mx-36">
+            <div className="studio-section-card__outer flex flex-col w-full m-0 sm:flex-row sm:items-center sm:justify-evenly sm:gap-6 sm:mx-36">
                 {HomeStudioSectionCardData.map((item, index)=>
                     (
                         <div className="studio-section-card__inner bg-white" key={index}>
@@ -63,3 +63,4 @@ export default function HomeStudioSectionCard(){
         </div>
     )
 }
+

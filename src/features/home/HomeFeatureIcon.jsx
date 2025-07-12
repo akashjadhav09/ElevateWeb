@@ -19,7 +19,7 @@ export default function HomeFeatureIcon(){
     ]
     return(
         <div className="home-strip-wrapper__main">
-            <div className="home-strip__outer flex items-center justify-evenly">
+            <div className="home-strip__outer flex flex-col items-start justify-center gap-8 px-12 sm:flex-row sm:items-center sm:justify-evenly">
                     {stripContent.map((strip,index)=>{
                         return(
                             <div className="home-strip__inner flex items-center gap-4" key={index}>

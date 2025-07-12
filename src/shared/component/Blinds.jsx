@@ -33,38 +33,41 @@ export default function Blinds() {
       <div className="title-text text-center text-5xl pt-8 mb-8">{sectionLabel}</div>
 
       <div className="blinds-widget__outer flex items-center justify-center gap-4 w-full max-w-6xl px-4 pb-20">
-        {blindsData.map((item, index) => (
-          <div
-            key={index}
-            className={`blinds-widget__inner transition-all duration-500 overflow-hidden rounded-xl border border-gray-300 ${
-              hoveredIndex === index
-                ? "w-full"
-                : "w-[30%]"
-            }`}
-            onMouseEnter={() => setHoveredIndex(index)}
-            onMouseLeave={() => setHoveredIndex(null)}
-          >
-            <div className="blinds-conter__outer relative">
-              <div className="blinds-image-wrapper border rounded-lg overflow-hidden">
-                <img
-                  className="blinds-image border rounded-lg object-cover w-full h-[400px]"
-                  src={item.imageSrc}
-                  alt=""
-                />
-              </div>
+  {blindsData.map((item, index) => (
+    <div
+      key={index}
+      className={`blinds-widget__inner transition-all duration-500 overflow-hidden rounded-xl border border-gray-300 ${
+        hoveredIndex === index ? "flex-[3]" : "flex-[1]"
+      }`}
+      onMouseEnter={() => setHoveredIndex(index)}
+      onMouseLeave={() => setHoveredIndex(null)}
+    >
+      <div className="blinds-conter__outer relative">
+        <div className="blinds-image-wrapper border rounded-lg overflow-hidden">
+          <img
+            className="blinds-image border rounded-lg object-cover w-full h-[400px]"
+            src={item.imageSrc}
+            alt=""
+          />
+        </div>
 
-              <div
-                className={`blinds-content-wrapper__inner absolute bottom-4 left-4 right-4 transition-opacity duration-500 ${
-                  hoveredIndex === index ? "opacity-100" : "opacity-0"
-                }`}
-              >
-                <p className="name-text text-gray-900 text-2xl font-semibold">{item.name}</p>
-                <p className="designation-text text-gray-900 text-sm">{item.designation}</p>
-              </div>
-            </div>
-          </div>
-        ))}
+        <div
+          className={`blinds-content-wrapper__inner absolute bottom-4 left-4 right-4 transition-opacity duration-500 ${
+            hoveredIndex === index ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          <p className="name-text text-gray-900 text-2xl font-semibold">
+            {item.name}
+          </p>
+          <p className="designation-text text-gray-900 text-sm">
+            {item.designation}
+          </p>
+        </div>
       </div>
+    </div>
+  ))}
+</div>
+
     </div>
   );
 }
