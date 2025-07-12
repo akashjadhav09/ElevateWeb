@@ -22,7 +22,7 @@ export default function HowWeWork(){
     ]
     return(
         <div className="how-we-work-wrapper__main">
-            <div className="title-text text-5xl text-center mb-4">
+            <div className="title-text text-3xl md:text-5xl px-4 md:px-0 text-center mb-4">
                 How We Work: Painless, Proven, Pixel-Perfect
             </div>
 

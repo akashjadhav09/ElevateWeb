@@ -34,7 +34,6 @@ export default function Navbar() {
                 isTabsOpen ? 'max-h-[500px] opacity-100 p-6 mt-2' : 'max-h-0 opacity-0'
               }`
             }
-          onClick={()=>setIsTabOpen(prev => !prev)}
           >
 
             <Link to="/about" className="link pt-2 cursor-pointer">About</Link>

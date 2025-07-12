@@ -59,7 +59,7 @@ export default function ContactForm(){
     return(
         <div className="contact-form-wrapper-main">
             <div className="contact-form-wrapper-outer">
-                <div className="contact-form-wrapper-inner w-full flex flex-col md:flex-row justify-center py-16">
+                <div className="contact-form-wrapper-inner w-full flex flex-col md:flex-row justify-center md:py-16 mt-4">
 
                     <div className="content-wrapper md:w-1/2 flex flex-col items-center justify-center px-8">
                         <div className="title-text md:text-center text-4xl md:text-6xl mb-8">Let's Build Something Awesome!</div>
@@ -68,7 +68,7 @@ export default function ContactForm(){
 
                     <div className="form-data-wrapper md:w-1/2">
                         <div className="max-w-2xl mx-auto bg-white mb-8 px-8">
-                            <form className="space-y-6 pb-3 border-b border-gray-300" onSubmit={handleSubmit}>
+                            <form className="space-y-6 pb-3 border-b border-gray-300 md:border-none" onSubmit={handleSubmit}>
                             <div>
                                 <label className="block mb-1 font-medium">
                                 Your Name <span className="text-red-500">*</span>
