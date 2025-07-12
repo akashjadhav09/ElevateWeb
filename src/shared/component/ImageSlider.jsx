@@ -46,7 +46,7 @@ export default function ImageSlider() {
   return (
     <div className="image-slider__main px-4">
       <div className="content-wrapper w-full flex items-center justify-center">
-        <div className="content-wrapper-inner my-8 w-1/2">
+        <div className="content-wrapper-inner my-8 md:w-1/2">
           <div className="title-text text-5xl text-center mb-4">
             Explore Our Creative Work and Success Stories
           </div>

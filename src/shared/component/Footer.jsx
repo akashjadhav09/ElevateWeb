@@ -6,13 +6,13 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function Footer(){
     return(
         <div className="footer-section-wrapper__main px-20 pt-20 pb-8 w-full">
-             <div className="footer-section-wrapper__outer flex items-baseline justify-evenly pb-12 border-b border-gray-400">
-                <div className="logo-wrapper__outer w-[20%]">
+             <div className="footer-section-wrapper__outer flex flex-col md:flex-row lg:flex-row items-baseline justify-evenly pb-12 border-b border-gray-400">
+                <div className="logo-wrapper__outer md:w-[20%] lg:w-[20%]">
                     <div className="logo-wrapper__inner">
                         <div className="logo-label text-2xl">Elevate Web</div>
                     </div>
                     <p className="logo-description mt-4">We craft high-performance digital experiences that drive real business results.</p>
-                    <div className="social-handler-icon-wrapper flex items-center gap-4 mt-12 cursor-pointer">
+                    <div className="social-handler-icon-wrapper flex items-center gap-4 mb-12 mt-4 lg:mt-12 cursor-pointer">
                         <span className="bg-black text-[#b4f553] p-1 text-xl rounded-full">
                             <FaInstagram />
                         </span>
@@ -39,7 +39,7 @@ export default function Footer(){
                     </div>
                 </div>
 
-                <div className="services-wrapper__outer">
+                <div className="services-wrapper__outer mt-4">
                     <label className="services-label text-2xl">Services</label>
                     <div className="services-wrapper__inner mt-4 flex flex-col gap-2 cursor-pointer">
                         <p>UI/UX Design</p>
@@ -50,7 +50,7 @@ export default function Footer(){
                     </div>
                 </div>
 
-                <div className="inspiration-section__outer">
+                <div className="inspiration-section__outer mt-4">
                     <label className="inspiration-section-label text-2xl">Get the Latest Inspiration</label>
                     <div className="inspiration-section__inner mt-4 flex flex-col gap-8">
                         <input

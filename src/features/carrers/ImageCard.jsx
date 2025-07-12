@@ -16,10 +16,10 @@ export default function ImageCard(){
         <div className="carrer-image-card-wrapper__main">
             <div className="carrer-image-card-wrapper__outer flex flex-col items-center">
                 
-                <div className="title-text text-center text-6xl mb-4 w-1/2">{title}</div>
-                <div className="body-text text-center text-lg w-1/2">{body}</div>
+                <div className="title-text text-center text-4xl md:text-6xl mb-4 md:w-1/2">{title}</div>
+                <div className="body-text text-center text-lg px-4 md-px-0 md:w-1/2">{body}</div>
                 
-                <div className="carrer-image-card-wrapper__outer flex items-center gap-4 w-[85%]">
+                <div className="carrer-image-card-wrapper__outer flex flex-col md:flex-row items-center gap-4 w-[85%]">
                     {images.map((img, index)=>(
                         <div className={`carrer-image-card-wrapper__inner border rounded-xl ${numberAddMargin.includes(index) ? 'm-4' : ''}`} key={index}>
                             <img className={`${index === 2 ? 'max-w-[91%]' : ''}border rounded-xl`} src={img.src} alt="" />

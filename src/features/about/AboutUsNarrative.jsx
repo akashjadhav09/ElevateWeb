@@ -34,25 +34,25 @@ export default function AboutUsNarrative({narrativeData}){
         <div className="narrative-des-wrapper__outer w-full">
             <div className="narrative-des-wrapper__inner">
                 {data.map((item, index) => (
-                    <div className="narrative-inner flex items-center justify-center" key={index}>
+                    <div className="narrative-inner flex flex-col lg:flex-row items-center justify-center" key={index}>
                     
-                        <div className="narrative-image-wrapper w-[40%]">
+                        <div className="narrative-image-wrapper lg:w-[40%]">
                             <img className="narative-image" src={item.imgSrc} alt="" />
                         </div>
 
-                        <div className="narrative-content-wrapper__outer w-[60%]">
+                        <div className="narrative-content-wrapper__outer lg:w-[60%]">
                             <div className="content-inner">
-                            <p className="title-text text-5xl pt-8 w-[75%]">{item.content.title}</p>
-                            <p className="body-text text-lg my-8 w-[70%]">{item.content.body}</p>
+                            <p className="title-text text-center text-4xl lg:text-5xl pt-8 lg:w-[75%]">{item.content.title}</p>
+                            <p className="body-text px-5 text-lg my-8 lg:w-[70%]">{item.content.body}</p>
                             </div>
 
                             <div className="checkpoint-wrapper__outer pb-8">
-                            <p className="checkpoint-label-text text-lg mb-2 w-[70%]">
+                            <p className="checkpoint-label-text text-lg mb-2 px-5 lg:w-[70%]">
                                 {item.content.checkpoints.checkpointText}
                             </p>
                             {item.content.checkpoints.checkpointLabel.map((checkpoint, i) => (
                                 <div
-                                    className="check-point-label flex mb-2"
+                                    className="check-point-label flex mb-2 px-2"
                                     key={i}
                                 >
                                     <div className="check-point-label__inner flex items-center gap-x-2 text-center">

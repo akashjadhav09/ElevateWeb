@@ -32,7 +32,7 @@ export default function CarrersCard() {
 
   return (
     <div className="carrer-card-main py-8 px-4 bg-[#f3f3f3]">
-        <div className="title-text text-center text-6xl my-8">{heading}</div>
+        <div className="title-text text-center text-4xl md:text-6xl my-8">{heading}</div>
       <div className="carrer-card-outer flex flex-wrap gap-6 justify-center">
 
         {cardData.map((item, index) => (

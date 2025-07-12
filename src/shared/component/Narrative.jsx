@@ -31,12 +31,12 @@ export default function Narrative(){
     ]
     return(
         <div className="narrative-wrapper__main bg-[#f3f3f3] p-4">
-            <div className="text-5xl text-center pt-8 pb-16">Recognitions & Awards</div>
-            <div className="narrative-wrapper__outer mb-20">
+            <div className="text-3xl lg:text-5xl text-center py-8">Recognitions & Awards</div>
+            <div className="narrative-wrapper__outer mb-12 md:mb-20 lg:mb-20">
                 {narrativeData.map((item, index)=>
                     (
                         <div className="narrative-wrapper__inner flex items-center justify-center gap-20" key={index}>
-                            <div className="image-section-wrapper">
+                            <div className="image-section-wrapper hidden md:block lg:block">
                                 <img className="border rounded-2xl" src={item.imgSrc} alt="" />
                             </div>
 

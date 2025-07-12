@@ -73,16 +73,22 @@ export default function BlogCard(){
             <div className="blog-card__outer flex flex-wrap items-start justify-evenly cursor-pointer mb-4">
                 {blogCardData.map((card, index) => (
                 <div className="w-full sm:w-1/2 lg:w-1/3 p-2" key={index}>
-                    <div className="blog-card__inner flex gap-4 p-2 m-2 border border-gray-300 rounded w-full">
-                    <div className="image-wrapper__main w-1/2">
-                        <img src={card.imgSrc} alt="" className="horiz-card-image rounded" />
+                    <div className="blog-card__inner flex flex-col sm:flex-row gap-4 p-2 lg:m-2 border border-gray-300 rounded w-full">
+                    {/* Image section */}
+                    <div className="image-wrapper__main w-full sm:w-1/2">
+                        <img
+                        src={card.imgSrc}
+                        alt=""
+                        className="horiz-card-image rounded w-full h-full object-cover"
+                        />
                     </div>
 
-                    <div className="hori-card-content-wrapper flex flex-col justify-between w-1/2">
-                        <div className="card-label-wrapper flex items-center gap-4">
+                    {/* Text content */}
+                    <div className="hori-card-content-wrapper flex flex-col justify-between w-full sm:w-1/2">
+                        <div className="card-label-wrapper flex flex-wrap items-center gap-2 sm:gap-4 mb-2">
                         {card.label.map((label, labelIndex) => (
                             <div
-                            className="label-text border border-gray-300 rounded-full px-2 py-1"
+                            className="label-text border border-gray-300 rounded-full px-2 py-1 text-sm"
                             key={labelIndex}
                             >
                             {label.text}
@@ -90,12 +96,20 @@ export default function BlogCard(){
                         ))}
                         </div>
 
-                        <div className="body-text-wrapper">
-                        {card.title && <p className="card-title-text">{card.title}</p>}
-                        {card.body && <p className="card-body-text">{card.body}</p>}
+                        <div className="body-text-wrapper mb-2">
+                        {card.title && (
+                            <p className="card-title-text font-semibold text-lg">
+                            {card.title}
+                            </p>
+                        )}
+                        {card.body && (
+                            <p className="card-body-text text-sm text-gray-600">
+                            {card.body}
+                            </p>
+                        )}
                         </div>
 
-                        <div className="button-time-stamp-wrapper flex items-center gap-1 text-xs">
+                        <div className="button-time-stamp-wrapper flex flex-wrap items-center gap-2 text-xs text-gray-500">
                         {card.date && <p className="time-stamp-wrapper">{card.date}</p>}
                         {card.subText && <p className="sub-text">{card.subText}</p>}
                         </div>
