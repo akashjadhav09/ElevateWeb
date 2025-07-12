@@ -68,11 +68,11 @@ export default function ShareProjectDetailForm() {
   return (
     <div className="main">
       <div className="content-wrapper flex flex-col items-center justify-center my-4">
-        <div className="title-text text-center text-6xl mb-4 w-1/2">{title}</div>
-        <div className="body-text text-center text-lg w-1/2">{body}</div>
+        <div className="title-text text-center text-4xl md:text-6xl mb-4 md:w-1/2">{title}</div>
+        <div className="body-text text-center px-2 text-lg md:w-1/2">{body}</div>
       </div>
 
-      <div className="max-w-2xl mx-auto bg-white p-8 rounded-2xl border border-gray-200 mb-8">
+      <div className="m-2 max-w-2xl md:mx-auto bg-white p-4 md:p-8 rounded-2xl border border-gray-200 mb-8 sm:m-[0.5em]">
         <form className="space-y-6" onSubmit={handleSubmit}>
           <div>
             <label className="block mb-1 font-medium">

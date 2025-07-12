@@ -30,7 +30,7 @@ export default function Blinds() {
 
   return (
     <div className="blinds-widget__main flex flex-col items-center justify-center cursor-pointer bg-[#f3f3f3]">
-      <div className="title-text text-center text-5xl pt-8 mb-8">{sectionLabel}</div>
+      <div className="title-text text-center text-4xl md:text-5xl pt-8 mb-8">{sectionLabel}</div>
 
       <div className="blinds-widget__outer flex items-center justify-center gap-4 w-full max-w-6xl px-4 pb-20">
   {blindsData.map((item, index) => (
