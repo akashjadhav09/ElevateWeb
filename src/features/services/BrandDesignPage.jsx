@@ -6,21 +6,21 @@ import ServiceAccordion from "../../shared/component/ServiceAccordion";
 import ServicePageHeroSection from "./ServicePageHeroSection";
 import ServiceProcessCard from "./ServiceProcessCard";
 
-export default function UiUxDevelopmentPage(){
 
-    const narrtiveMainTitle = "Our UI/UX Design Superpowers ";
+export default function BrandDesignPage(){
+    const narrtiveMainTitle = "Brand Design Differentiators";
     const NarrativeData = [
         {
-            title : "Psychology-Driven Design",
-            body : "We apply proven principles from behavioral science to create designs that guide user behavior, reduce friction, and drive better outcomes."
+            title : "Strategic Storytelling",
+            body : "We go beyond surface-level visuals to uncover and shape your brand’s unique narrative—turning your story into a strategic asset."
         },
         {
-            title : "Real-User Testing",
-            body : "We validate every prototype with 5–10 real users from target audience, uncovering actionable insights before a single line of code is written."
+            title : "System Thinking",
+            body : "Every brand asset we create is built to scale—consistent, adaptable, and ready to perform across all channels."
         },
          {
-            title : "Dev-Ready Handoffs",
-            body : "Developers receive clean, pixel-perfect Figma files complete with auto-generated specs, assets, and documentation."
+            title : "Culture Coding",
+            body : "We translate your company’s values, beliefs, and personality into a distinct visual identity. The result? A brand that feels authentic from the inside out."
         }
     ]
 
@@ -41,37 +41,37 @@ export default function UiUxDevelopmentPage(){
     ]
     
     
-    const processCardMainTitle = "Our UI/UX Design Process";
+    const processCardMainTitle = "Our Brand Design Process";
     const processSteps = [
         {
-            title: "1. Discover & Define",
+            title: "1. Discovery",
             description:
-            "We start by learning your business – its ambitions & challenges.",
+            "We learn what makes you and your product unique.",
         },
         {
-            title: "2. Ideate & Prototype",
+            title: "2. Conceptualize",
             description:
-            "Transforming insights into tangible designs – Accelerate your growth.",
+            "Where creativity meets strategy. Color palette exploration",
         },
         {
-            title: "3. Refine & Validate",
+            title: "3. Build the System",
             description:
-            "Perfecting every pixel with real user feedback & user surveys.",
+            "Polishing every touchpoint. Mockups & asset templates",
         }
     ];
 
     return(
         <>
             <ServicePageIntoBanner 
-                title = "UI/UX Design"
-                body = "We craft user experiences that drive action, not just admiration. Whether it’s a conversion-focused SaaS dashboard or a mobile app that users can’t put down, our process blends behavioral psychology with pixel-perfect execution."
-                buttonText = "Book a Meeting"
+                title = "Brand Design"
+                body = "Your brand is more than a logo – it’s your competitive edge. We develop comprehensive visual identities including color systems, typography hierarchies, and design languages that communicate your unique value."
+                buttonText = "Let's Rebrand"
                 src = "./public/assets/images/homepageNarr1.jpg"
             />
 
             <ServicePageHeroSection 
-                mainTitle = "Design That Works as Hard as You Do"
-                subTitle = "We craft user-centric interfaces that blend aesthetics with functionality, turning complex workflows into intuitive experiences. Through wireframing, prototyping, and usability testing, we design digital products that reduce friction, boost engagement, and drive conversions—whether it’s a SaaS dashboard, mobile app, or e-commerce platform."
+                mainTitle = "Branding That Demands Attention"
+                subTitle = "Your brand is more than a logo—it’s your story. We build memorable visual identities from the ground up, including logos, color systems, typography, and style guides. Our strategic approach ensures your brand stands out, resonates with your audience, and scales seamlessly as you grow."
                 src = "./public/assets/images/blog-page-1.jpg"
             />
 
@@ -90,8 +90,6 @@ export default function UiUxDevelopmentPage(){
                 accordionMainTitle = {accordionMainTitle}
                 accordionData = {accordionData}
             />
-
         </>
     )
 }
-
