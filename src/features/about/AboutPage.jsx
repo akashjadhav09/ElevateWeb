@@ -4,14 +4,20 @@ import React from "react";
 // import HowWeWork from "./HowWeWorkCard";
 // import Narrative from "../../shared/component/Narrative";
 // import AboutUsNarrative from "./AboutUsNarrative";
-import Blinds from "../../shared/component/Blinds";
+// import Blinds from "../../shared/component/Blinds";
 
-import UiUxDevelopmentPage from "../services/UiUxDevelopmentPage";
+// import UiUxDevelopmentPage from "../services/UiUxDevelopmentPage";
+// import BrandDesignPage from "../services/BrandDesignPage";
+// import WebFlowPage from "../services/WebFlowPage";
+import NoCodeDevelopment from "../services/NoCodeDevelopment";
 
 export default function AboutUsPage(){
     return(
         <>
-            <UiUxDevelopmentPage />
+            {/* <UiUxDevelopmentPage /> */}
+            {/* <BrandDesignPage /> */}
+            {/* <WebFlowPage /> */}
+            <NoCodeDevelopment />
 
             {/* <PageIntroBanner 
                 title = "Crafted Works, Bold Results"
@@ -21,7 +27,7 @@ export default function AboutUsPage(){
             {/* <HowWeWork />
             <Narrative />
             <AboutUsNarrative /> */}
-            <Blinds />
+            {/* <Blinds /> */}
         </>
     )
 }
