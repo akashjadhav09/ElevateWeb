@@ -23,7 +23,7 @@ export default function ContactCard() {
         {Data.map((item, index) => (
           <div
             key={index}
-            className="contact-card-inner bg-white shadow-md border border-gray-200 rounded-xl py-16 md:p-6 text-center"
+            className="contact-card-inner bg-white shadow-md border border-gray-200 rounded-xl py-16 md:p-6 md:py-16 text-center"
           >
             <h3 className="text-xl font-semibold mb-2 text-gray-800">{item.title}</h3>
 

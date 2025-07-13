@@ -59,7 +59,7 @@ export default function ContactForm(){
     return(
         <div className="contact-form-wrapper-main">
             <div className="contact-form-wrapper-outer">
-                <div className="contact-form-wrapper-inner w-full flex flex-col md:flex-row justify-center md:py-16 mt-4">
+                <div className="contact-form-wrapper-inner w-full flex flex-col md:flex-row justify-center md:py-16 mt-4 border-b border-gray-400">
 
                     <div className="content-wrapper md:w-1/2 flex flex-col items-center justify-center px-8">
                         <div className="title-text md:text-center text-4xl md:text-6xl mb-8">Let's Build Something Awesome!</div>

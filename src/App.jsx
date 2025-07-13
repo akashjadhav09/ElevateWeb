@@ -10,6 +10,11 @@ import CarrersPage from './features/carrers/CarrersPage';
 import GetQuotePage from './features/getquote/GetQuotePage';
 import ContactPage from './features/contact/ContactPage';
 
+import UiUxDevelopmentPage from "./features/services/UiUxDevelopmentPage";
+import BrandDesignPage from "./features/services/BrandDesignPage";
+import WebFlowPage from "./features/services/WebFlowPage";
+import NoCodeDevelopment from "./features/services/NoCodeDevelopment";
+
 import BookFreeCall from './shared/component/bookFreeCall';
 import Footer from './shared/component/Footer';
 
@@ -26,6 +31,10 @@ function App() {
           <Route path="/careers" element={<CarrersPage />} />
           <Route path="/quote" element={<GetQuotePage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/uiuxPage" element={<UiUxDevelopmentPage />} />
+          <Route path="/branddesignpage" element={<BrandDesignPage />} />
+          <Route path="/webflowpage" element={<WebFlowPage />} />
+          <Route path="/nocodedevelopment" element={<NoCodeDevelopment />} />
         </Routes>
       </Router>
       <BookFreeCall />
