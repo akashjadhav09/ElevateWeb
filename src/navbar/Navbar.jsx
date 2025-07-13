@@ -71,7 +71,8 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className="navbar-wrapper__inner hidden md:block lg:block bg-[#12141d] text-white relative pb-56 px-6">
+        {/* add padding below - pb-56  */}
+        <div className="navbar-wrapper__inner hidden md:block lg:block bg-[#12141d] text-white relative px-6">
           <div className="navbar-top__section flex items-center justify-center flex-wrap gap-20 pt-6 pb-8">
             <div className="navbar-logo text-2xl font-semibold">ELEVATE WEB</div>
 
