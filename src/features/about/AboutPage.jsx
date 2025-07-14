@@ -10,8 +10,8 @@ export default function AboutUsPage(){
     return(
         <>
             <PageIntroBanner 
-                title = "Crafted Works, Bold Results"
-                body = "Showcasing creative projects that deliver impact and inspire growth."
+                title = "Expertly Built, Fearlessly Effective"
+                body = "Demonstrating imaginative solutions that create impact and encourage growth."
                 src = "./public/assets/images/homepageNarr1.jpg"
             />
             <HowWeWork />

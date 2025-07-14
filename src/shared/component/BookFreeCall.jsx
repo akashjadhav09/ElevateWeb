@@ -7,7 +7,7 @@ export default function BookFreeCall(){
                 <div className='thumbnail-wrapper h-[100px] w-[100px] border rounded-full m-4'>
                     <img className='h-full w-full border rounded-full object-cover p-1' src="./public/assets/images/prof-avtar-1.png" alt="" />
                 </div>
-                <div className='title-wrapper text-5xl text-white m-2 text-center'>Meet the Minds Behind the Magic</div>
+                <div className='title-wrapper text-5xl text-white m-2 text-center'>Discover the Brilliant Minds Behind the Scenes</div>
                 <div className='sub-title-wrapper text-lg text-white m-1 text-center'>Get a free 30-minute strategy session with our lead designer.</div>
                 <button className='book-free-call-btn border border-[#d2ff28] rounded-full bg-[#d2ff28] text-gray-900 px-7 py-4 m-4'>Book a free call</button>
                 <div className='email-detail-wrapper flex flex-col items-center gap-1 my-6'>

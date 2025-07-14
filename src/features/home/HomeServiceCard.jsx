@@ -18,7 +18,7 @@ export default function HomeServiceCard(){
         },
         {
             title: "2.Brand Design",
-            body: "Visual identities that command attention and build trust. Logos, style guides, and assets crafted to tell your story.",
+            body: "Speedy, scalable websites that boost your rankings—crafted in Webflow without the clutter of unnecessary code.",
             checkPoints: [
                 {
                     point: "Logos with hidden storytelling."
@@ -33,7 +33,7 @@ export default function HomeServiceCard(){
         },
         {
             title: "3.Webflow Development",
-            body: "Websites that load fast, rank higher, and grow with you. No bloated code—just seamless Webflow experiences.",
+            body: "Fast-loading websites that rank better and scale effortlessly with your business—no bloated code, just smooth Webflow experiences.",
             checkPoints: [
                 {
                     point: "90+ PageSpeed scores guaranteed."
@@ -63,7 +63,7 @@ export default function HomeServiceCard(){
         },
         {
             title: "4.No-Code Development",
-            body: "Launch functional MVPs without engineering headaches. Solutions in weeks, not months.",
+            body: "Speedy, scalable websites that boost your rankings—crafted in Webflow without the clutter of unnecessary code.",
             checkPoints: [
                 {
                     point: "Bubble/FlutterFlow MVPs in 4 weeks."

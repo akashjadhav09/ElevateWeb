@@ -9,7 +9,7 @@ export default function AboutUsNarrative({narrativeData}){
             content :
                 {
                     title : "From Garage Dreams to Pixel-Perfect Reality.",
-                    body : "We didn’t start Web Rocket to follow design trends—we started it to blow them up. Back in 2018, our founders - Two Caffeine Fueled Dev & Design hybrids were sick of agencies overpromising and underdelivering. So we built our own damn studio.",
+                    body : "We didn’t create Web Rocket to chase design trends—we built it to break the mold. In 2018, our founders—two caffeine-fueled dev-design hybrids—got tired of agencies making big promises and failing to deliver. So they launched their own studio and did things differently.",
                     checkpoints : {
                         checkpointText : "Today? We’re a squad of 15 designers, developers, and no-code wizards who still operate like a startup:",
                         checkpointLabel : [

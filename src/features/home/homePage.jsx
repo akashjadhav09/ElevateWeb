@@ -9,8 +9,8 @@ import ClientRating from "../home/ClientRatingCard";
 import HomeStudioSectionCard from "../home/HomeStudioSectionCard";
 
 export default function HomePage(){
-    let title = "Unforgettable, Websites, Brands & Visuals for Bold Visionaries.";
-    let body = "We’re not your typical design agency. Founded in 2014, we’re a collective of designers, developers, and strategists who believe great digital experiences should be beautiful, functional, and human-centered. From startups to global brands, we help ambitious businesses stand out.We’re not your typical design agency. Founded in 2014, we’re a collective of designers, developers, and strategists who believe great digital experiences should be beautiful, functional, and human-centered. From startups to global brands, we help ambitious businesses stand out.";
+    let title = "Striking Websites, Brands, and Visuals for Fearless Visionaries.";
+    let body = "We’re not your average design agency. Since 2014, our team of designers, developers, and strategists has been crafting digital experiences that are not only visually striking but also functional and centered around real human needs. Whether working with startups or global enterprises, we empower bold brands to make a lasting impression.";
     let imgsrc = "./public/assets/images/homepageNarr1.jpg"
 
     return(
